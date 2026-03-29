@@ -1,0 +1,2 @@
+C:\Users\HP\.cache\kagglehub\datasets\emmarex\plantdisease\versions\1
+C:\Users\HP\.cache\kagglehub\datasets\guy007\nutrientdeficiencysymptomsinrice\versions\1
