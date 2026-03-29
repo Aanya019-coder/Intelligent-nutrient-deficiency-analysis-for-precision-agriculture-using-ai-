@@ -177,9 +177,11 @@ def build_model(num_classes=7):
     x = tf.keras.layers.Dense(512, activation='relu', kernel_regularizer=tf.keras.regularizers.l2(1e-4))(x)
     x = tf.keras.layers.BatchNormalization()(x)
     x = tf.keras.layers.Dropout(0.4)(x)
+    x = tf.keras.layers.Dense(256, activation='relu', kernel_regularizer=tf.keras.regularizers.l2(1e-4))(x)
+    x = tf.keras.layers.Dropout(0.3)(x)
     outputs = tf.keras.layers.Dense(num_classes, activation='softmax')(x)
 
-    model = tf.keras.Model(inputs, outputs, name='NutriScan_EfficientNetB3_v2')
+    model = tf.keras.Model(inputs, outputs, name='NutriScan_EfficientNetB3_95pc_v3')
     model.compile(
         optimizer=tf.keras.optimizers.Adam(learning_rate=1e-4),
         loss='categorical_crossentropy',
