@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Datasets and large assets
+dataset/
+model/
+.venv/
+.cache/
+data_downloaded/
+
+# Logs and Plots
+training_curves.png
+*.log
+
+# Environment
+.env
+.ipynb_checkpoints
