@@ -98,7 +98,7 @@ Open **`http://127.0.0.1:5000`** in your browser.
 This project was developed at **IILM University, Greater Noida**, as part of the B.Tech AI-ML program (Session 2025–26).
 
 - **Supervisor:** Dr. Swati Vashisht | School of CSE
-- **Team:** Aarya Chaudhary, Sweta Kumari, Krishna, Pawan Kumar, Saurav Singh
+- **Team:** Aanya Chaudhary
 
 ---
 
