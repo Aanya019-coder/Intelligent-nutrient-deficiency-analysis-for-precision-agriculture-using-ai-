@@ -92,15 +92,7 @@ python app.py
 ```
 Open **`http://127.0.0.1:5000`** in your browser.
 
----
 
-## 🎓 Academic Context
-This project was developed at **IILM University, Greater Noida**, as part of the B.Tech AI-ML program (Session 2025–26).
-
-- **Supervisor:** Dr. Swati Vashisht | School of CSE
-- **Team:** Aanya Chaudhary
-
----
 
 ## 🌍 Sustainable Development Goals (SDG)
 NutriScan AI directly contributes to the following UN goals:
